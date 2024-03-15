@@ -1,0 +1,15 @@
+Algoritmo CalculaTemperaturaGas
+    Var
+        volumeInicial, temperaturaInicial, volumeFinal, temperaturaFinal: Real
+
+    Escreva("Digite o volume inicial do gás: ")
+    Leia(volumeInicial)
+    Escreva("Digite a temperatura inicial do gás: ")
+    Leia(temperaturaInicial)
+    Escreva("Digite o volume final do gás: ")
+    Leia(volumeFinal)
+    temperaturaFinal <- temperaturaInicial * (volumeFinal / volumeInicial)
+
+
+    Escreva("A temperatura final do gás é: ", temperaturaFinal)
+FimAlgoritmo
